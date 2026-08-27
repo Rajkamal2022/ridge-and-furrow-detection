@@ -16,11 +16,11 @@ Automated detection and segmentation of medieval ridge and furrow features from 
 - YOLOv8n-seg Segmentation (Refined Polygons)
 - YOLOv8n-seg Segmentation (Refined + Checkerboard Split)
 
-## Test Dataset
-The Northumberland clipped test set (104 labelled tiles out of 1,155) produced lower automated metrics 
-due to limited ground truth coverage and due to lack of properly labelled test dataset. 
-
-## Results
-- Northumberland validation map showing 428 medieval RNF, 444 post-medieval agriculture, 
-  202 modern agriculture, 36 coastal, and 33 other predictions from 1,151 manually classified tiles.
-- 82% site-level detection rate (127/154 known sites detected).
+## Test Dataset 
+##  Manual Results using YOLOv8n-seg with checkerboard splitting model
+- Evaluated on 1,155 tiles (104 labelled, 141 instances)
+- Box mAP@0.5: 0.178 | Mask mAP@0.5: 0.174
+- Low automated metrics because only 104 of 1,155 tiles had ground truth labels. Correct detections on the remaining 1,051 unlabelled tiles were counted as false positives, artificially lowering the scores.
+- Manual validation confirmed 82% site-level detection rate (127/154 known sites)
+- 428 medieval RNF confirmed, 444 post-medieval and 202 modern agriculture false positives
+- Expert review (Pett, D.) confirmed identifications were broadly correct
