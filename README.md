@@ -3,6 +3,8 @@
 ## Description
 Automated detection and segmentation of medieval ridge and furrow features from LiDAR-derived visualisations using YOLOv8.
 
+ ## Training Dataset 
+ - Midland region 
 ## Pipeline
 1. LiDAR preprocessing (RVT visualisations)
 2. RGB composite creation
@@ -16,7 +18,7 @@ Automated detection and segmentation of medieval ridge and furrow features from 
 - YOLOv8n-seg Segmentation (Refined Polygons)
 - YOLOv8n-seg Segmentation (Refined + Checkerboard Split)
 
-## Test Dataset 
+## Test Dataset ( Northumberland)
 ##  Manual Results using YOLOv8n-seg with checkerboard splitting model
 - Evaluated on 1,155 tiles (104 labelled, 141 instances)
 - Box mAP@0.5: 0.178 | Mask mAP@0.5: 0.174
