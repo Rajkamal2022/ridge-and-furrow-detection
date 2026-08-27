@@ -7,10 +7,11 @@ Automated detection and segmentation of medieval ridge and furrow features from 
  - Midland region 
 ## Pipeline
 1. LiDAR preprocessing (RVT visualisations)
-2. RGB composite creation
-3. Tiling and JPEG conversion
-4. Automated label generation
-5. YOLO model training and evaluation
+2. Percentile Normalisation
+3. RGB composite creation
+4. Tiling and JPEG conversion
+5. Automated label generations
+6. YOLO models training and evaluations
 
 ## Models
 - YOLOv8n Bounding Box Detection
