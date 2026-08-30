@@ -11,7 +11,7 @@ Automated detection and segmentation of medieval ridge and furrow features from 
 3. RGB composite creation
 4. Tiling and JPEG conversion
 5. Automated label generations
-6. YOLO models training and evaluations
+6. YOLO model training and evaluations
 
 ## Models
 - YOLOv8n Bounding Box Detection
