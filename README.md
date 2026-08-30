@@ -13,6 +13,10 @@ Automated detection and segmentation of medieval ridge and furrow features from 
 5. Automated label generations
 6. YOLO model training and evaluations
 
+## Dataset
+The training dataset, labels, and tiled images are available at:
+[Google Drive - Dataset and Labels](https://drive.google.com/drive/folders/1QgcHTmnwC2JjTLkS4Mw0HczynUTeLD_r?usp=drive_link)
+
 ## Models
 - YOLOv8n Bounding Box Detection
 - YOLOv8n-seg Segmentation (Original Polygons)
